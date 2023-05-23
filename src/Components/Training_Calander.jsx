@@ -4,7 +4,7 @@ import classroom from '../images/classroom.svg';
 import online from '../images/online.svg';
 import onsite from '../images/inhouse.svg';
 import Virtual from '../images/virtual.svg';
-const Training_calendar = () => {
+const TrainingCalendar = () => {
 
     return (
         <>
@@ -932,4 +932,4 @@ const Training_calendar = () => {
 
 };
 
-export default Training_calendar;
+export default TrainingCalendar;
