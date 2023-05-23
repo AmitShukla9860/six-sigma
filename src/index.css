@@ -21,13 +21,15 @@ body {
   background-color: aqua;
 
 }
-.header{
+.heade{
   margin-left: 80px;
 
 }
+.heade h2{
+  margin-top: 5px;
+  padding-top: 25px;
+}
 .Training{
-  /* position: relative; */
-  /* display: flex; */
   background-color: #f1f1f1;
   height: 600px;
 }
@@ -101,14 +103,12 @@ margin-top: 25px;
   align-items: center;
   margin-left: 50px;
 }
-.comp img{
-  width: 45px;
-  height: 45px;
-  margin-top: 20px;
-}
 .comp h3{
-  margin-left: 70px;
+  margin-left: 50px;
   margin-top: 25px;
+}
+.comp img{
+  margin-top: 20px;
 }
 .green_belt{
   background-image: url('./images/greenbelt.svg');
@@ -117,7 +117,7 @@ margin-top: 25px;
   width: 475px;
   height: 155px;
   margin-left: 120px;
-  margin-top: 10px;
+  margin-top: 15px;
   color: aliceblue;
 }
 .green_belt p{
@@ -131,6 +131,7 @@ background-size: contain;
 width: 475px;
 height: 155px;
 margin-left: 150px;
+margin-top: 20px;
 color: aliceblue;
 }
 .black_belt p{
@@ -300,6 +301,11 @@ to{
   border-radius: 10px;
   cursor: pointer;
 }
+.virtual_1:hover{
+  background: #007d3d;
+  cursor: pointer;
+  color: #fff;
+}
 .virtual img{
   margin-top: 10px;
 }
@@ -316,21 +322,23 @@ to{
   height: 40px;
 }
 .virtual_1{
-  /* background: url('./images/delivery-method-bg.svg'); */
-  /* background-repeat: no-repeat;
-  background-size: 50%; */
   background: #FFF;
   box-shadow: 0 0 10px #e0e0e0;
   width: 120px;
   height: 100px;
-  /* margin: auto; */
   margin: 10px 0px 10px 20px;
   text-align: center;
   border-radius: 10px;
 }
+
 .virtual_1 img{
   margin-top: 10px;
 }
+/* pending task (on hover img color would be white) */
+/* .virtual_1 img:hover{
+  color: #fff;
+  filter: invert(100%);
+} */
 .virtual_1 h3{
   margin: 10px 0 0 0;
 }

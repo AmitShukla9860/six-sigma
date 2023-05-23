@@ -9,7 +9,7 @@ const Training = ()=>{
 
         <div className="Training">
 
-        <div className="header">
+        <div className="heade">
         <h2>Lean Six Sigma training courses</h2>
         </div>
         <div className="contents">
