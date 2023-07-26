@@ -31,11 +31,12 @@ body {
 }
 .Training{
   background-color: #f1f1f1;
-  height: 600px;
+  height: 625px;
 }
 .contents{
   display: flex;
   position: relative;
+  width: 100%;
   
 
 }
@@ -77,11 +78,10 @@ body {
 .six_1{ 
    background-image: url('./images/training-bg.png');
   background-repeat: no-repeat;
-  position: relative;
-  /* right: 80px; */
+  position: absolute;
   left: 570px;
   background-size: 800px 550px;
-  width: 52%;
+  width: 53%;
   height: 550px;
 }
 .yellow_belt{
@@ -130,7 +130,7 @@ background-repeat: no-repeat;
 background-size: contain;
 width: 475px;
 height: 155px;
-margin-left: 150px;
+margin-left: 200px;
 margin-top: 20px;
 color: aliceblue;
 }
@@ -176,9 +176,8 @@ color: aliceblue;
 .Bespoke{
   margin: auto;
   margin-top: 50px;
-  width: 100%;
   text-align: center;
-  width: 275px;
+  width: 22%;
   height: 275px;
   box-shadow: 0 0px 5px #c1c1c1;
   background: #FFFFFF;
@@ -225,20 +224,17 @@ to{
 
 .Training_calendar{
 
-  background-color: #f1f1f1;
+  background: #FAFAFA;
+
 
 }
+.Head {
+  padding: 50px 0px;
+}
 .caland{
-  height: 4150px;
+  height: 4000px;
   width: 90%;
   margin: auto;
-}
-.select{
-  display: flex;
-  margin: auto;
-}
-.select p{
-  margin: 5px 250px 0 0px;
 }
 .Selector{
   height: 100px;
@@ -246,8 +242,11 @@ to{
   box-shadow: 0 0px 5px #c1c1c1;
   padding: 10px;
   position: sticky;
-  top: 50px;
+  top: 45px;
   z-index: 998;
+}
+.selectors p{
+  margin: 0;
 }
 .selectors{
   display: flex;
@@ -263,17 +262,18 @@ to{
   width: 50px;
   height: 50px;
   padding: 5px;
-  margin: 10px 0 0 0px;
+  margin: 28px 0 0 0px;
   background-color: #1f5e88;
-  box-shadow: 0 0 15px 0 #c1c1c1;
+  box-shadow: 0 5px 5px 0 #c1c1c1;
   cursor: pointer;
+  border: none;
 }
 .left_module{
   background-color: #fff;
   position: sticky;
   top: 180px;
   width: 300px;
-  height: 300px;
+  height: 600px;
   margin-top: 20px;
   border-radius: 10px;
 }
@@ -284,14 +284,14 @@ to{
 .left_1{
   display: flex;
 }
+.left_2 img{
+  padding-top: 10px;
+}
 .left_1 img{
   width: 40px;
   height: 40px;
-  /* padding: 5px; */
 }
-.training_mode h3{
-  margin-left: 25px;
-}
+
 .virtual{
   width: 120px;
   height: 100px;
@@ -305,6 +305,10 @@ to{
   background: #007d3d;
   cursor: pointer;
   color: #fff;
+}
+.virtual_1:hover svg{
+  stroke: #fff;
+  stroke-width: .7px;
 }
 .virtual img{
   margin-top: 10px;
@@ -331,16 +335,11 @@ to{
   border-radius: 10px;
 }
 
-.virtual_1 img{
+.virtual_1 svg{
   margin-top: 10px;
 }
-/* pending task (on hover img color would be white) */
-/* .virtual_1 img:hover{
-  color: #fff;
-  filter: invert(100%);
-} */
-.virtual_1 h3{
-  margin: 10px 0 0 0;
+h3{
+  /* margin: 10px 0 0 0; */
 }
 .virtual_1 :hover{
   background-color: #007d3d;
@@ -348,11 +347,9 @@ to{
 }
 .Guarantee{
   background-color: #0fbd63;
-  position: sticky;
-  top: 180px;
   width: 300px;
-  height: 250px;
-  margin-top: 20px;
+  height: 270px;
+  margin-top: 30px;
   border-radius: 10px;
 }
 .Guarantee h2{
@@ -367,7 +364,7 @@ to{
   color: #FFF;
 }
 .Guarantee button{
-  margin: 25px 20px 10px 20px;
+  margin: 35px 20px 10px 20px;
   border-radius: 5px;
   border: none;
   font-size: 16px;
@@ -381,14 +378,16 @@ to{
   cursor: pointer;
   background-color: orange;
 }
+
 .right_module{
+
 width: 870px;
 height: 225px;
 background: #FFF;
-  box-shadow: 0 0 10px #e0e0e0;
-  margin-left: 50px;
-  margin-top: 20px;
-  border-radius: 10px;
+box-shadow: 0 0 10px #e0e0e0;
+margin-left: 50px;
+margin-top: 20px;
+border-radius: 10px;
 }
 
 .header{
@@ -525,10 +524,6 @@ background: #FFF;
   width: 820px;
   margin-top: -5px;
 }
-.virtu p{
-  /* width: 200px; */
-
-}
 .footer{
   display: flex;
   justify-content: space-between;
@@ -644,9 +639,7 @@ background: #FFF;
   width: 500px;
   height: 120px;
   background-color: #007d3d;
-  /* justify-content: center; */
   align-items: center;
-  /* margin-left: 370px; */
 }
 .call_icon img{
   margin-left:100px;
@@ -854,13 +847,9 @@ background: #FFF;
 }
 .client_1 p{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   font-size: 20px;
   font-weight: 600;
   color: #787878;
-  /* margin: 25px 50px; */
 }
 .client_2{
   display: flex;
@@ -886,7 +875,6 @@ background: #FFF;
   margin-top: -250px;
 }
 .Final_footer{
-
   background: #1B1819;
 }
 .final_foot{
@@ -913,7 +901,6 @@ background: #FFF;
   color: #FFF;
   width: 15px;
   height: 15px;
-  /* text-align: center; */
   padding: 3px;
   font-size: 15px;
   background: #0fbd63;
@@ -956,6 +943,14 @@ background: #FFF;
   width: 150px;
 }
 
+.cont_2 span{
+  background: #007d3d;
+  color: #0000;
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 50%;
+}
 .cont_3 button{
   margin-top: 15px;
   margin-bottom: 10px;

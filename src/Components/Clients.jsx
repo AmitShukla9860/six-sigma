@@ -11,6 +11,8 @@ import twitter from '../images/twitter.svg';
 import linkedin from '../images/linkedin.svg';
 
 
+
+
 const Client=()=>{
     return(
         <>
@@ -76,21 +78,21 @@ const Client=()=>{
                 </div>
                 <div className="cont_2">
                     <h2>Quick Links</h2>
-                    <p><span><i class="fa fa-check"></i></span>Testimonial</p>
-                    <p><span><i class="fa fa-check"></i></span>Clients</p>
-                    <p><span><i class="fa fa-check"></i></span>Contact us</p>
-                    <p><span><i class="fa fa-check"></i></span>Blogs</p>
-                    <p><span><i class="fa fa-check"></i></span>Privacy policy</p>
-                    <p><span><i class="fa fa-check"></i></span>Cookies</p>
-                    <p><span><i class="fa fa-check"></i></span>Terms & conditions</p>
+                    <p><span> </span>Testimonial</p>
+                    <p><span> </span>Clients</p>
+                    <p><span> </span>Contact us</p>
+                    <p><span> </span>Blogs</p>
+                    <p><span> </span>Privacy policy</p>
+                    <p><span> </span>Cookies</p>
+                    <p><span> </span>Terms & conditions</p>
                 </div>
                 <div className="cont_3">
-                    <h2>Courses</h2>
-                    <p><span><i class="fa fa-check"></i></span>Six Sigma Green Belt</p>
-                <p><span><i class="fa fa-check"></i></span>Lean Six Sigma Green Belt</p>
-                <p><span><i class="fa fa-check"></i></span>5S Training</p>
-                <p><span><i class="fa fa-check"></i></span>Certified Kaizen Foundation</p>
-                <p><span><i class="fa fa-check"></i></span>Certified Kaizen Practitioner</p>
+                <h2>Courses</h2>
+                <p><span> </span>Six Sigma Green Belt</p>
+                <p><span> </span>Lean Six Sigma Green Belt</p>
+                <p><span> </span>5S Training</p>
+                <p><span> </span>Certified Kaizen Foundation</p>
+                <p><span> </span>Certified Kaizen Practitioner</p>
                 <button>Find a course <span><i class='fas fa-angle-right'></i></span> </button>
                 </div>
                 <div className="cont_4">
